@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import {HelloPlanet} from './components/HelloPlanet';
 import {FirstProps} from './components/FirstProps';
 import {StateComponent} from './components/StateComponent';
+import {ClickEventComp} from './components/ClickEventComp';
 
 
 var obj = {
@@ -19,6 +20,7 @@ ReactDOM.render(
     <HelloPlanet />
     <FirstProps myObj={obj} />
     <StateComponent/>
+    <ClickEventComp />
   </div>,
   document.getElementById('firstapp')
 );
